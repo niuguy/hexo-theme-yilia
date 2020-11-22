@@ -1,15 +1,18 @@
 # Header
 
 menu:
-  主页: /
-  随笔: /tags/随笔/
+  # 主页: /
+  杂文: /categories/杂文//
+  量化&炼丹: /categories/ML//
+  # 炼丹: /categories/ML//
+  后端: /categories/Backend//
 
 # SubNav
 subnav:
-  github: "#"
-  weibo: "#"
-  rss: "#"
-  zhihu: "#"
+  github: "https://github.com/niuguy"
+  weibo: "https://weibo.com/fieldpeak"
+  # rss: "atom.xml"
+  # zhihu: "#"
   #qq: "#"
   #weixin: "#"
   #jianshu: "#"
@@ -20,7 +23,7 @@ subnav:
   #mail: "mailto:litten225@qq.com"
   #facebook: "#"
   #google: "#"
-  #twitter: "#"
+  twitter: "https://twitter.com/wang_tf"
   #linkedin: "#"
 
 rss: /atom.xml
@@ -37,7 +40,7 @@ excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
-mathjax: false
+mathjax: true
 # 是否在新窗口打开链接
 open_in_new: false
 
@@ -64,11 +67,11 @@ top: true
 
 # Miscellaneous
 baidu_analytics: ''
-google_analytics: ''
+google_analytics: 'UA-125847424-3'
 favicon: /favicon.png
 
 #你的头像url
-avatar:
+avatar: /march.jpg
 
 #是否开启分享
 share_jia: true
@@ -88,7 +91,7 @@ changyan_appid: false
 changyan_conf: false
 
 #4、Disqus 在hexo根目录的config里也有disqus_shortname字段，优先使用yilia的
-disqus: false
+disqus: true
 
 #5、Gitment
 gitment_owner: false      #你的 GitHub ID
@@ -107,7 +110,7 @@ style:
 # slider的设置
 slider:
   # 是否默认展开tags板块
-  showTags: false
+  showTags: true
 
 # 智能菜单
 # 如不需要，将该对应项置为false
@@ -116,7 +119,7 @@ slider:
 #  friends: false
 smart_menu:
   innerArchive: '所有文章'
-  friends: '友链'
+  friends: false
   aboutme: '关于我'
 
 friends:
@@ -127,4 +130,4 @@ friends:
   友情链接5: http://localhost:4000/
   友情链接6: http://localhost:4000/
 
-aboutme: 很惭愧<br><br>只做了一点微小的工作<br>谢谢大家
+aboutme: 感谢光临峰记小馆。<br><br>我是Feng, 在英国卖码而生。 <br><br>祝你开心！
